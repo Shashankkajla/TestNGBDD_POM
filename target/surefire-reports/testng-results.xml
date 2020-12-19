@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="CRMTestNGBDD Test Automation Test Suite" duration-ms="25671" started-at="2020-10-26T12:36:00Z" finished-at="2020-10-26T12:36:26Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.qa.runner.TestRunner@6ae04d]" name="feature" class="com.qa.runner.TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="CRMTestNGBDD Application Test" duration-ms="25671" started-at="2020-10-26T12:36:00Z" finished-at="2020-10-26T12:36:26Z">
+      <class name="com.qa.runner.TestRunner">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.runner.TestRunner@6ae04d]" name="setUp" is-config="true" duration-ms="312" started-at="2020-10-26T12:36:00Z" finished-at="2020-10-26T12:36:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.qa.runner.TestRunner@6ae04d]" name="feature" duration-ms="25188" started-at="2020-10-26T12:36:01Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-10-26T12:36:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Free CRM Login Feature]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.qa.runner.TestRunner@6ae04d]" name="tearDownClass" is-config="true" duration-ms="47" started-at="2020-10-26T12:36:26Z" finished-at="2020-10-26T12:36:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.qa.runner.TestRunner -->
+    </test> <!-- CRMTestNGBDD Application Test -->
+  </suite> <!-- CRMTestNGBDD Test Automation Test Suite -->
+</testng-results>

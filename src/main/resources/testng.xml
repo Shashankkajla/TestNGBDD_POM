@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "CRMTestNGBDD Test Automation Test Suite">
+
+ 
+ 
+<test name= "CRMTestNGBDD Application Test" >
+
+ <classes>
+     <class name="com.qa.runner.TestRunner" />
+     
+        
+     </classes>
+
+    </test> 
+    </suite>
